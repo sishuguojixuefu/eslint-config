@@ -1,0 +1,50 @@
+{
+  "name": "@sishuguojixuefu/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint config for sishuguojixuefu",
+  "keywords": [
+    "eslint-config",
+    "react-native",
+    "prettier",
+    "typescript"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push --tags && git push && npm publish"
+  },
+  "homepage": "http://192.168.2.112/sishu_npm/eslint-config-react-native-typescript",
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.2.112/sishu_npm/eslint-config-react-native-typescript.git"
+  },
+  "author": {
+    "name": "杨俊宁",
+    "email": "1003719811@qq.com",
+    "url": "https://youngjuning.js.org"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-native": "^3.8.1",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "@sishu/eslint-config-react-native-typescript": "^0.3.8",
+    "typescript": "^3.7.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=3.7.3"
+  }
+}
