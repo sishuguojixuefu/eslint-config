@@ -111,13 +111,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@sishu/eslint-config-react-native-typescript@^0.3.8":
-  version "0.3.8"
-  resolved "http://192.168.2.116:4873/@sishu%2feslint-config-react-native-typescript/-/eslint-config-react-native-typescript-0.3.8.tgz#da7d30527fe9b3ff63c284eef6f352847320a747"
-  integrity sha512-w4dAIQAqVW7NQfrv7ZqVjc56o9RjoUi85fecdDGGK6Gfs+cMcG58PSPizc/aq38e63EpOR1paQpUKlAoT10JTg==
+"@sishuguojixuefu/eslint-config@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/@sishuguojixuefu/eslint-config/-/eslint-config-0.1.0.tgz#a941f906e59382171c46251b89a9c23ae08817d7"
+  integrity sha512-sN37Xv5rUVmPCbNsvijfdoN066fUjdumRVhiceV9PReh0+2IVo2EUSv2AYyHI0TX7iXQvXi1tsrAMNLsRYKd4g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.10.0"
     "@typescript-eslint/parser" "^2.10.0"
+    babel-eslint "^10.0.3"
     eslint "^6.7.2"
     eslint-config-airbnb "^18.0.1"
     eslint-config-airbnb-base "^14.0.0"
@@ -125,6 +126,7 @@
     eslint-import-resolver-typescript "^2.0.0"
     eslint-plugin-eslint-comments "^3.1.2"
     eslint-plugin-import "^2.18.2"
+    eslint-plugin-jest "^23.1.1"
     eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-prettier "^3.1.1"
     eslint-plugin-react "^7.17.0"

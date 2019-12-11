@@ -7,7 +7,7 @@ module.exports = {
   'react/jsx-filename-extension': [
     2,
     {
-      extensions: ['.tsx'],
+      extensions: ['.tsx', '.jsx'],
     },
   ],
   'react/prefer-stateless-function': 0,

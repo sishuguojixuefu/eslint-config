@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import moduleName from './getDemo'
 
 export class Demo extends Component {
   componentDidMount() {
