@@ -1,3 +1,4 @@
+const vue = require('./vue.js')
 const javascript = require('./javascript.js')
 const javascriptReact = require('./javascriptReact.js')
 const typescript = require('./typescript.js')
@@ -25,6 +26,7 @@ module.exports = {
     javascriptReact,
     typescript,
     typescriptReact,
+    vue,
     {
       files: ['*.{spec,test}.{js,ts,tsx}', '**/__tests__/**/*.{js,ts,tsx}'],
       env: {

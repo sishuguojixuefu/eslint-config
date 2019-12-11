@@ -41,7 +41,7 @@
     "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "@sishuguojixuefu/eslint-config": "0.1.0",
+    "@sishuguojixuefu/eslint-config": "0.2.0",
     "typescript": "^3.7.3"
   },
   "peerDependencies": {

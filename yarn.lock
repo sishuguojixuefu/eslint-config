@@ -111,10 +111,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@sishuguojixuefu/eslint-config@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@sishuguojixuefu/eslint-config/-/eslint-config-0.1.0.tgz#a941f906e59382171c46251b89a9c23ae08817d7"
-  integrity sha512-sN37Xv5rUVmPCbNsvijfdoN066fUjdumRVhiceV9PReh0+2IVo2EUSv2AYyHI0TX7iXQvXi1tsrAMNLsRYKd4g==
+"@sishuguojixuefu/eslint-config@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@sishuguojixuefu/eslint-config/-/eslint-config-0.2.0.tgz#cb7505502792d5daf75e5c6655792119a66064cf"
+  integrity sha512-WKdi8b5Q73hUOPQuyNTox9Me/iaKj+6XR0kqfS1RUnR0dCR4jjCENkb7hb/nLeC8ttEqTEgF0ieR4hPyf5ayHg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.10.0"
     "@typescript-eslint/parser" "^2.10.0"
