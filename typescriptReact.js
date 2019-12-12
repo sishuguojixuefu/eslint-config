@@ -1,5 +1,5 @@
-const reactConfig = require('./config/react.config')
-const typescriptConfig = require('./config/typescript.config')
+const reactConfig = require('./rules/react.rule.js')
+const typescriptConfig = require('./rules/typescript.rule.js')
 
 module.exports = {
   files: ['*.tsx'],

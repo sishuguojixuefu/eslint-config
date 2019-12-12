@@ -1,4 +1,4 @@
-const typescriptConfig = require('./config/typescript.config')
+const typescriptConfig = require('./rules/typescript.rule.js')
 
 module.exports = {
   files: ['*.ts'],
