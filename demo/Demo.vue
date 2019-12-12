@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import getDemoJs from './getDemo.js'
+import getDemoJs from './getDemo'
 import getDemoJson from './getDemo.json'
 
 export default {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import getDemo from './getDemo1'
+import getDemo from './getDemo'
 
 export class Demo extends Component {
   componentDidMount() {
-    console.log('')
+    console.log(getDemo())
   }
 
   render() {
