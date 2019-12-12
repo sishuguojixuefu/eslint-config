@@ -1,4 +1,4 @@
-const reactConfig = require('./config/react.config')
+const reactConfig = require('./rules/react.rule.js')
 
 module.exports = {
   files: ['*.jsx'],
