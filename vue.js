@@ -7,9 +7,6 @@ module.exports = {
     sourceType: 'module',
     ecamaVersion: 2018,
   },
-  settings: {
-    'import/extensions': ['.js', '.ts', '.vue'],
-  },
   env: {
     browser: true,
     node: true,

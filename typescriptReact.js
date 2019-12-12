@@ -20,14 +20,6 @@ module.exports = {
       jsx: true,
     },
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-    'import/resolver': {
-      typescript: {},
-    },
-  },
   rules: {
     'import/no-extraneous-dependencies': 0,
     ...reactRules,

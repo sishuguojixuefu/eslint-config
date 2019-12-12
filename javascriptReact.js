@@ -9,11 +9,6 @@ module.exports = {
       jsx: true,
     },
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
   rules: {
     'import/no-extraneous-dependencies': 0,
     ...reactRules,
