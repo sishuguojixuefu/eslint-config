@@ -22,11 +22,16 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
 
 ```js
 module.exports = {
-  printWidth: 120, // 一行的字符数，如果超过会进行换行，默认为80
-  tabWidth: 2, // 一个tab代表几个空格数
-  semi: false, // 行位是否使用分号，默认为true
-  trailingComma: 'es5', // 是否使用尾逗号，有三个可选值"<none|es5|all>"
-  singleQuote: true, // 字符串是否使用单引号，默认为false，使用双引号
+  printWidth: 150,
+  tabWidth: 2,
+  useTabs: false,
+  semi: false,
+  trailingComma: 'es5',
+  singleQuote: true,
+  bracketSpacing: true,
+  jsxBracketSameLine: false,
+  arrowParens: 'avoid',
+  endOfLine: 'lf',
 }
 ```
 

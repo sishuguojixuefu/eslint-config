@@ -1,8 +1,5 @@
 module.exports = {
   'no-console': 0,
-  'import/extensions': 0,
-  'import/prefer-default-export': 0,
-  'import/no-extraneous-dependencies': 0,
   'jsx-a11y/accessible-emoji': 0,
   'react/jsx-filename-extension': [
     2,

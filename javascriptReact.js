@@ -1,4 +1,4 @@
-const reactConfig = require('./rules/react.rule.js')
+const reactRules = require('./rules/react.js')
 
 module.exports = {
   files: ['*.jsx'],
@@ -15,6 +15,7 @@ module.exports = {
     },
   },
   rules: {
-    ...reactConfig,
+    'import/no-extraneous-dependencies': 0,
+    ...reactRules,
   },
 }

@@ -1,5 +1,5 @@
 module.exports = {
   root: true,
-  // extends: './index.js',
-  extends: '@sishuguojixuefu',
+  extends: './index.js',
+  // extends: '@sishuguojixuefu',
 }

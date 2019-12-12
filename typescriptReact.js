@@ -1,5 +1,5 @@
-const reactConfig = require('./rules/react.rule.js')
-const typescriptConfig = require('./rules/typescript.rule.js')
+const reactRules = require('./rules/react.js')
+const typescriptRules = require('./rules/typescript.js')
 
 module.exports = {
   files: ['*.tsx'],
@@ -29,7 +29,8 @@ module.exports = {
     },
   },
   rules: {
-    ...reactConfig,
-    ...typescriptConfig,
+    'import/no-extraneous-dependencies': 0,
+    ...reactRules,
+    ...typescriptRules,
   },
 }

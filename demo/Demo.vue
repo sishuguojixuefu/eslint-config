@@ -4,6 +4,9 @@
 </template>
 
 <script>
+import getDemoJs from './getDemo.js'
+import getDemoJson from './getDemo.json'
+
 export default {
   data() {
     return {}

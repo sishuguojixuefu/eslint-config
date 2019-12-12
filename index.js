@@ -8,12 +8,7 @@ module.exports = {
   env: {
     es6: true,
   },
-  extends: [
-    'airbnb-base',
-    'plugin:eslint-comments/recommended',
-    'plugin:jest/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['airbnb-base', 'plugin:eslint-comments/recommended', 'plugin:jest/recommended', 'plugin:prettier/recommended'],
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
@@ -37,16 +32,21 @@ module.exports = {
   ],
   rules: {
     'global-require': 0,
-    'default-case': 0,
-    'max-classes-per-file': 0,
-    'linebreak-style': [2, 'unix'],
+    'import/no-extraneous-dependencies': 0, // Forbid the use of extraneous packages
     'lines-between-class-members': [
-      1,
+      // 要求或禁止在类成员之间出现空行
+      2,
       'always',
       {
-        exceptAfterSingleLine: true,
+        exceptAfterSingleLine: true, //  跳过对单行类成员之后的空行的检查
       },
     ],
+    'max-classes-per-file': 0,
+    'no-console': 0,
+    'no-param-reassign': [2, { props: false }],
+    'no-restricted-globals': 0, // 禁用特定的全局变量
+    'no-use-before-define': [2, { functions: true, classes: true, variables: false }], // 禁止定义前使用（变量例外）
+    'no-unused-vars': [2, { vars: 'all', args: 'none', ignoreRestSiblings: true, argsIgnorePattern: '^_' }],
     'prefer-destructuring': [
       2,
       {
@@ -54,14 +54,5 @@ module.exports = {
         object: true,
       },
     ],
-    'no-console': 0,
-    'no-restricted-globals': 0,
-    'no-use-before-define': 0,
-    'no-underscore-dangle': 0,
-    'no-unused-expressions': 0,
-    'no-plusplus': 0,
-    'no-unused-vars': [1, { vars: 'all', args: 'none', ignoreRestSiblings: true }],
-    'no-nested-ternary': 0,
-    'no-param-reassign': ['error', { props: false }],
   },
 }
