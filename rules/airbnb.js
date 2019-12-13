@@ -10,7 +10,7 @@ module.exports = {
   ],
   'max-classes-per-file': 0,
   'no-console': 0,
-  'no-nested-ternary': 1, // 禁止使用嵌套的三元表达式
+  'no-nested-ternary': 0, // 禁止使用嵌套的三元表达式
   'no-param-reassign': [2, { props: false }], // 禁止对函数参数再赋值
   'no-restricted-globals': 0, // 禁用特定的全局变量
   'no-use-before-define': 0, // 禁止定义前使用
