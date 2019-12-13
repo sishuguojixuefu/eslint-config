@@ -16,11 +16,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
   overrides: [
     javascript,
     javascriptReact,
@@ -35,6 +30,15 @@ module.exports = {
       },
     },
   ],
+  settings: {
+    'import/extensions': ['.js', '.ts', '.tsx'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {},
+    },
+  },
   rules: {
     'global-require': 0,
     'import/no-extraneous-dependencies': 0, // Forbid the use of extraneous packages
