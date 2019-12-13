@@ -1,8 +1,8 @@
-const vue = require('./vue.js')
-const javascript = require('./javascript.js')
-const javascriptReact = require('./javascriptReact.js')
-const typescript = require('./typescript.js')
-const typescriptReact = require('./typescriptReact.js')
+const vue = require('./overrides/vue.js')
+const javascript = require('./overrides/javascript.js')
+const javascriptReact = require('./overrides/javascriptReact.js')
+const typescript = require('./overrides/typescript.js')
+const typescriptReact = require('./overrides/typescriptReact.js')
 
 module.exports = {
   env: {
@@ -32,36 +32,11 @@ module.exports = {
   ],
   settings: {
     'import/extensions': ['.js', '.ts', '.tsx'],
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
-    },
     'import/resolver': {
-      typescript: {},
+      // use <root>/tsconfig.json
+      typescript: {
+        alwaysTryTypes: true, // always try to resolve types under `<roo/>@types` directory even it doesn't contain any source code, like `@types/unist`
+      },
     },
-  },
-  rules: {
-    'global-require': 0,
-    'import/no-extraneous-dependencies': 0, // Forbid the use of extraneous packages
-    'lines-between-class-members': [
-      // 要求或禁止在类成员之间出现空行
-      2,
-      'always',
-      {
-        exceptAfterSingleLine: true, //  跳过对单行类成员之后的空行的检查
-      },
-    ],
-    'max-classes-per-file': 0,
-    'no-console': 0,
-    'no-param-reassign': [2, { props: false }],
-    'no-restricted-globals': 0, // 禁用特定的全局变量
-    'no-use-before-define': [2, { functions: true, classes: true, variables: false }], // 禁止定义前使用（变量例外）
-    'no-unused-vars': [2, { vars: 'all', args: 'none', ignoreRestSiblings: true, argsIgnorePattern: '^_' }],
-    'prefer-destructuring': [
-      2,
-      {
-        array: false,
-        object: true,
-      },
-    ],
   },
 }

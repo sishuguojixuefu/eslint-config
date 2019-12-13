@@ -1,5 +1,4 @@
 module.exports = {
-  'no-unused-vars': 0,
   '@typescript-eslint/no-unused-vars': [2, { vars: 'all', args: 'none', ignoreRestSiblings: true, argsIgnorePattern: '^_' }],
   '@typescript-eslint/no-non-null-assertion': 0,
   '@typescript-eslint/camelcase': 0,

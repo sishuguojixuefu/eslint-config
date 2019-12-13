@@ -1,7 +1,5 @@
 module.exports = {
   'max-classes-per-file': 0,
-  'import/extensions': 0,
-  'import/no-extraneous-dependencies': 0,
   'no-console': 0,
   'jsx-a11y/accessible-emoji': 0,
   'react/jsx-filename-extension': [
