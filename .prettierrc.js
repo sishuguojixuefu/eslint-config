@@ -35,6 +35,5 @@ module.exports = {
    * always 总是有括号
    */
   arrowParens: 'avoid',
-  // 强制使用 unix 风格的换行符
-  endOfLine: 'lf',
+  endOfLine: 'lf', // 强制使用 unix 风格的换行符
 }
