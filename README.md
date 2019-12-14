@@ -22,11 +22,11 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
 
 ```js
 module.exports = {
-  printWidth: 150,
+  printWidth: 120,
   tabWidth: 2,
   useTabs: false,
   semi: false,
-  trailingComma: 'es5',
+  trailingComma: 'none',
   singleQuote: true,
   bracketSpacing: true,
   jsxBracketSameLine: false,
