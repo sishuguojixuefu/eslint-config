@@ -5,9 +5,6 @@ const typescriptRules = require('../rules/typescript.js')
 
 module.exports = {
   files: ['*.tsx'],
-  env: {
-    'react-native/react-native': true,
-  },
   extends: [
     'airbnb',
     'plugin:@typescript-eslint/recommended',
