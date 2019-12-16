@@ -41,13 +41,13 @@
     "eslint-plugin-react-native": "^3.8.1",
     "eslint-plugin-vue": "^6.0.1",
     "prettier": "^1.19.1",
-    "vue-eslint-parser": "^7.0.0"
+    "vue-eslint-parser": "^7.0.0",
+    "typescript": "^3.7.3"
   },
   "devDependencies": {
     "@sishuguojixuefu/eslint-config": "0.2.0",
     "@types/react": "^16.9.16",
-    "@types/react-native": "^0.60.25",
-    "typescript": "^3.7.3"
+    "@types/react-native": "^0.60.25"
   },
   "peerDependencies": {
     "typescript": ">=3.7.3"
