@@ -1,4 +1,5 @@
 module.exports = {
+  'import/extensions': ['.js', '.ts', '.vue'],
   'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
   'vue/no-unused-vars': 2,
   'vue/require-valid-default-prop': 0,

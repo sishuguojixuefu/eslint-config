@@ -31,7 +31,7 @@ module.exports = {
     },
   ],
   settings: {
-    'import/extensions': ['.js', '.ts', '.tsx', '.vue'],
+    'import/extensions': ['.js', '.ts', '.tsx'],
     'import/resolver': {
       // use <root>/tsconfig.json
       typescript: {
