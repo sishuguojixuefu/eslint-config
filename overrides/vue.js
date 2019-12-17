@@ -11,10 +11,6 @@ module.exports = {
     sourceType: 'module',
     ecamaVersion: 2018,
   },
-  env: {
-    browser: true,
-    node: true,
-  },
   globals: {
     __static: true,
   },
