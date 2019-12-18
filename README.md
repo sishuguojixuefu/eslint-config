@@ -18,6 +18,13 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
 
 ## More
 
+### .eslintignore
+
+```
+!.eslintrc.js
+!.prettierrc.js
+```
+
 ### .prettierrc.js
 
 ```js
