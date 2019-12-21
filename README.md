@@ -1,5 +1,13 @@
 # @sishuguojixuefu/eslint-config
 
+##　Support
+
+- vue
+- jsx
+- js
+- ts
+- tsx
+
 ## Installation
 
 ```
