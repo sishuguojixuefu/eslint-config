@@ -36,6 +36,16 @@ module.exports = {
 ### vue with ts
 
 ```js
+module.exports = {
+  root: true,
+  extends: '@sishuguojixuefu',
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+    ecmaFeatures: {
+      legacyDecorators: true,
+    },
+  },
+}
 
 ```
 
