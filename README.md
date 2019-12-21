@@ -1,12 +1,6 @@
 # @sishuguojixuefu/eslint-config
 
-## Support
-
-- vue
-- jsx
-- js
-- ts
-- tsx
+> 支持 vue、jsx、js、ts、tsx
 
 ## Installation
 
