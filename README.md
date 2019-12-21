@@ -24,6 +24,27 @@ Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json
 }
 ```
 
+### react-native
+
+```js
+module.exports = {
+  root: true,
+  extends: '@sishuguojixuefu',
+  env: {
+    'react-native/react-native': true,
+  },
+  globals: {
+    HermesInternal: false
+  }
+}
+```
+
+### vue
+
+```js
+
+```
+
 ## More
 
 ### .eslintignore
