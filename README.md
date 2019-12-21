@@ -33,7 +33,7 @@ module.exports = {
 }
 ```
 
-### vue
+### vue with ts
 
 ```js
 
