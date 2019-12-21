@@ -1,6 +1,6 @@
 # @sishuguojixuefu/eslint-config
 
-##　Support
+## Support
 
 - vue
 - jsx
