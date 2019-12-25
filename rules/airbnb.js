@@ -8,6 +8,7 @@ module.exports = {
       exceptAfterSingleLine: true, //  跳过对单行类成员之后的空行的检查
     },
   ],
+  'no-useless-constructor': 1,
   'max-classes-per-file': 0,
   'no-console': 0,
   'no-nested-ternary': 0, // 禁止使用嵌套的三元表达式
