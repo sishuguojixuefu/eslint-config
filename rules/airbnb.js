@@ -15,7 +15,7 @@ module.exports = {
   'no-param-reassign': [2, { props: false }], // 禁止对函数参数再赋值
   'no-restricted-globals': 0, // 禁用特定的全局变量
   'no-use-before-define': 0, // 禁止定义前使用
-  'no-underscore-dangle': [2, { allow: ['__DEV__', '_filename'], allowAfterThis: true, allowAfterSuper: true, enforceInMethodNames: true }], // 禁止标识符中有悬空下划线
+  'no-underscore-dangle': 0, // 禁止标识符中有悬空下划线
   'no-unused-expressions': 0, // 禁止未使用过的表达式
   'no-unused-vars': 0,
   'prefer-destructuring': [
