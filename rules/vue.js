@@ -1,6 +1,6 @@
 module.exports = {
   'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
-  'vue/no-unused-vars': 2,
+  'vue/no-unused-vars': 1,
   'vue/require-valid-default-prop': 0,
   'vue/require-v-for-key': 1,
   'vue/max-attributes-per-line': 0, // 解决Attribute "bind" should be on a new line
