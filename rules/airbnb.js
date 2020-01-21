@@ -13,6 +13,7 @@ module.exports = {
   'no-console': 0,
   'no-plusplus': 0,
   'no-return-assign': 0,
+  'no-useless-catch': 0,
   'no-nested-ternary': 0, // 禁止使用嵌套的三元表达式
   'no-param-reassign': [2, { props: false }], // 禁止对函数参数再赋值
   'no-restricted-globals': 0, // 禁用特定的全局变量
