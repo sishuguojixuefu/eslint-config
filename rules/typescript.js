@@ -1,5 +1,6 @@
 module.exports = {
   '@typescript-eslint/no-unused-vars': 1,
+  '@typescript-eslint/camelcase': 0,
   '@typescript-eslint/no-non-null-assertion': 0,
   '@typescript-eslint/ban-ts-ignore': 0,
   '@typescript-eslint/no-var-requires': 0,
