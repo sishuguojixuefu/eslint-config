@@ -10,6 +10,7 @@ module.exports = {
   ],
   'no-useless-constructor': 1,
   'max-classes-per-file': 0,
+  'class-methods-use-this': 0,
   'no-console': 0,
   'no-plusplus': 0,
   'no-return-assign': 0,
