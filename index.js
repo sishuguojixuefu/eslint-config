@@ -14,6 +14,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
+    'plugin:you-dont-need-momentjs/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
