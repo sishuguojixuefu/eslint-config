@@ -8,7 +8,13 @@ module.exports = {
   env: {
     es6: true,
   },
-  extends: ['airbnb-base', 'plugin:eslint-comments/recommended', 'plugin:jest/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'airbnb-base',
+    'plugin:eslint-comments/recommended',
+    'plugin:jest/recommended',
+    'plugin:prettier/recommended',
+    'plugin:you-dont-need-lodash-underscore/compatible',
+  ],
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
@@ -31,7 +37,7 @@ module.exports = {
     },
   ],
   settings: {
-    'import/extensions': ['.js', '.ts', '.tsx','.vue'],
+    'import/extensions': ['.js', '.ts', '.tsx', '.vue'],
     'import/resolver': {
       // use <root>/tsconfig.json
       typescript: {
