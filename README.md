@@ -10,11 +10,11 @@ yarn add -D @sishuguojixuefu/eslint-config typescript
 
 ## Usage
 
-Add to your eslint config (`.eslintrc`, or `eslintConfig` field in `package.json`):
+Add to your eslint config (`.eslintrc.js`):
 
-```json
-{
-  "extends": "@sishuguojixuefu"
+```js
+module.exports = {
+  extends: '@sishuguojixuefu'
 }
 ```
 
