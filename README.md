@@ -27,9 +27,6 @@ module.exports = {
   extends: '@sishuguojixuefu',
   env: {
     'react-native/react-native': true,
-  },
-  globals: {
-    HermesInternal: false
   }
 }
 ```
