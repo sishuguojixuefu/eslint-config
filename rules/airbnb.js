@@ -21,7 +21,7 @@ module.exports = {
   'no-use-before-define': 0, // 禁止定义前使用
   'no-underscore-dangle': 0, // 禁止标识符中有悬空下划线
   'no-unused-expressions': 0, // 禁止未使用过的表达式
-  'no-unused-vars': 0,
+  'no-unused-vars': 1,
   'prefer-destructuring': [
     2,
     {

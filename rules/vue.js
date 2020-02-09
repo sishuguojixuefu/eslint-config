@@ -1,5 +1,6 @@
 module.exports = {
   'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+  'no-unused-vars': 0,
   'vue/no-unused-vars': 1,
   'vue/require-valid-default-prop': 0,
   'vue/require-v-for-key': 1,
