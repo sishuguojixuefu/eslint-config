@@ -8,7 +8,21 @@
 yarn add -D @sishuguojixuefu/eslint-config typescript
 ```
 
-## Usage
+## Fast Usage
+
+Config in package.json:
+
+```json
+{
+  "eslintConfig": {
+    "extends": ["@sishuguojixuefu"],
+  },
+  "eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js", "index.js"],
+  "prettier": "@sishuguojixuefu/eslint-config/.prettierrc.js"
+}
+```
+
+## Single File Usage
 
 Add to your eslint config (`.eslintrc.js`):
 
