@@ -15,7 +15,7 @@ Config in package.json:
 ```json
 {
   "eslintConfig": {
-    "extends": ["@sishuguojixuefu"],
+    "extends": ["@sishuguojixuefu"]
   },
   "eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js", "index.js"],
   "prettier": "@sishuguojixuefu/eslint-config/.prettierrc.js"
@@ -29,7 +29,7 @@ Add to your eslint config (`.eslintrc.js`):
 ```js
 module.exports = {
   root: true,
-  extends: '@sishuguojixuefu'
+  extends: '@sishuguojixuefu',
 }
 ```
 
@@ -41,7 +41,7 @@ module.exports = {
   extends: '@sishuguojixuefu',
   env: {
     'react-native/react-native': true,
-  }
+  },
 }
 ```
 
@@ -58,7 +58,6 @@ module.exports = {
     },
   },
 }
-
 ```
 
 ## More
