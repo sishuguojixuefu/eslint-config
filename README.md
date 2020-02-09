@@ -14,6 +14,7 @@ Add to your eslint config (`.eslintrc.js`):
 
 ```js
 module.exports = {
+  root: true,
   extends: '@sishuguojixuefu'
 }
 ```
