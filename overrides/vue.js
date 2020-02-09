@@ -8,8 +8,6 @@ module.exports = {
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: 'babel-eslint',
-    sourceType: 'module',
-    ecamaVersion: 2018,
   },
   globals: {
     __static: true,
