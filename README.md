@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-yarn add -D @sishuguojixuefu/eslint-config typescript
+yarn add -D @sishuguojixuefu/eslint-config
 ```
 
 ## Fast Usage
