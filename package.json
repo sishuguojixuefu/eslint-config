@@ -32,7 +32,6 @@
     "eslint-config-prettier": "^6.7.0",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-loader": "^3.0.3",
-    "eslint-plugin-eslint-comments": "^3.1.2",
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^23.1.1",
@@ -48,7 +47,6 @@
     "vue-eslint-parser": "^7.0.0"
   },
   "devDependencies": {
-    "@sishuguojixuefu/eslint-config": "0.2.0",
     "@types/react": "^16.9.16",
     "@types/react-native": "^0.60.25"
   },

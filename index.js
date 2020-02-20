@@ -11,7 +11,6 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
-    'plugin:eslint-comments/recommended',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
