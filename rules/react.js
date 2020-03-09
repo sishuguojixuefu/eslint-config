@@ -15,6 +15,6 @@ module.exports = {
   'react/no-unescaped-entities': 0,
   'react-native/no-color-literals': 0,
   'react-native/no-raw-text': 0,
-  'react-native/no-inline-styles': 1,
+  'react-native/no-inline-styles': 0,
   'react-native/split-platform-components': 0,
 }

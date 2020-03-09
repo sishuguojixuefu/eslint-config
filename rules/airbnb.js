@@ -29,4 +29,5 @@ module.exports = {
       object: true,
     },
   ],
+  'default-case': 0,
 }
