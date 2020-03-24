@@ -7,6 +7,7 @@ module.exports = {
   files: ['*.tsx'],
   extends: [
     'airbnb',
+    'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-native/all',
     'prettier',

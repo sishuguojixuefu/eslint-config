@@ -4,7 +4,7 @@ const reactRules = require('../rules/react.js')
 
 module.exports = {
   files: ['*.jsx'],
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: ['airbnb', 'airbnb/hooks', 'prettier', 'prettier/react'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
