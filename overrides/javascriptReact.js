@@ -1,5 +1,3 @@
-const importRules = require('../rules/import.js')
-const airbnbRules = require('../rules/airbnb.js')
 const reactRules = require('../rules/react.js')
 
 module.exports = {
@@ -12,8 +10,6 @@ module.exports = {
     },
   },
   rules: {
-    ...importRules,
-    ...airbnbRules,
     ...reactRules,
   },
 }

@@ -1,7 +1,3 @@
-const importRules = require('../rules/import.js')
-const airbnbRules = require('../rules/airbnb.js')
-const vueRules = require('../rules/vue.js')
-
 module.exports = {
   files: ['*.vue'],
   extends: ['plugin:vue/recommended', 'prettier'],
@@ -12,5 +8,24 @@ module.exports = {
   globals: {
     __static: true,
   },
-  rules: { ...importRules, ...airbnbRules, ...vueRules },
+  rules: {
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-unused-vars': 0,
+    'vue/no-unused-vars': 1,
+    'vue/require-valid-default-prop': 0,
+    'vue/require-v-for-key': 1,
+    'vue/max-attributes-per-line': 0, // 解决Attribute "bind" should be on a new line
+    'vue/html-self-closing': 0,
+    'vue/html-indent': 0,
+    'vue/order-in-components': 0,
+    'vue/attribute-hyphenation': 0,
+    'vue/no-unused-components': 1,
+    'vue/singleline-html-element-content-newline': 0,
+    'vue/no-parsing-error': [
+      2,
+      {
+        'x-invalid-end-tag': false,
+      },
+    ],
+  },
 }

@@ -1,5 +1,3 @@
-const importRules = require('../rules/import.js')
-const airbnbRules = require('../rules/airbnb.js')
 const reactRules = require('../rules/react.js')
 const typescriptRules = require('../rules/typescript.js')
 
@@ -21,8 +19,6 @@ module.exports = {
     },
   },
   rules: {
-    ...importRules,
-    ...airbnbRules,
     ...reactRules,
     ...typescriptRules,
   },
