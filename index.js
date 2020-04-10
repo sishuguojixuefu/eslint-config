@@ -13,7 +13,6 @@ module.exports = {
     'airbnb-base',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
-    'plugin:promise/recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
     'plugin:you-dont-need-momentjs/recommended',
   ],
